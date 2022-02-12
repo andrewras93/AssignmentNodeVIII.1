@@ -6,3 +6,13 @@ body {
 a {
   color: #00B7FF;
 }
+
+header ul {
+  display: flex;  
+  list-style-type: none;
+  padding: 0;
+}
+
+header li:last-of-type {
+  padding-left: 16px;
+}

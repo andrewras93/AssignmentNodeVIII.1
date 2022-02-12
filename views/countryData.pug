@@ -1,0 +1,72 @@
+extends layout
+
+block content
+
+    h1 Enter Your Country Here
+    form(action='/country' method='post')
+        table
+            tr
+                td code:
+                td
+                    input(type='text' name='code', required)
+            tr
+                td name:
+                td
+                    input(type='text' name='name', required)
+            tr
+                td continent:
+                td
+                    input(type='text' name='continent', required)
+            tr
+                td region:
+                td
+                    input(type='text' name='region', required)
+            tr
+                td surfacearea:
+                td
+                    input(type='number' name='surfacearea', required)
+            tr
+                td indepyear:
+                td
+                    input(type='number' name='indepyear', required)
+            tr
+                td population:
+                td
+                    input(type='number' name='population', required)
+            tr
+                td lifeexpectancy:
+                td
+                    input(type='number' name='lifeexpectancy', required)
+            tr
+                td gnp:
+                td
+                    input(type='number' name='gnp', required)
+            tr
+                td gnpold:
+                td
+                    input(type='number' name='gnpold', required)
+            tr
+                td localname:
+                td
+                    input(type='text' name='localname', required)
+            tr
+                td governmentform:
+                td
+                    input(type='text' name='governmentform', required)
+            tr
+                td headofstate:
+                td
+                    input(type='text' name='headofstate', required)
+            tr
+                td capital:
+                td
+                    input(type='text' name='capital', required)
+            tr
+                td code2:
+                td
+                    input(type='text' name='code2', required)
+            tr
+                td
+                td
+                    input(type='submit')
+            
